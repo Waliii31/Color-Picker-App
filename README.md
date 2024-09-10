@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Color Picker Application 🎨✨
 
-## Getting Started
+Welcome to the **Color Picker Application**, the 8th project of my **30 Days 30 Projects Challenge**. This app allows users to select a color, view the color's value in both HEX and RGB formats, and copy the color value to the clipboard with ease.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Color Input**: Users can select any color from an input field.
+- **Display Color Value**: The selected color value is displayed in both HEX and RGB formats.
+- **Copy to Clipboard**: Users can copy the color value to the clipboard with a simple click.
+- **Responsive Layout**: Fully responsive design for seamless usage across devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building the application with server-side rendering.
+- **React**: Manages the UI components and application state.
+- **Tailwind CSS**: For creating a responsive and aesthetically pleasing design.
+- **shadcn/ui**: Beautifully styled components with Tailwind CSS for a polished user interface.
+- **Vercel**: Used for deploying the application and making it available online.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+Check out the live demo of the Color Picker App on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+[Live Demo](https://color-picker-app-iota.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Screenshot
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![color-picker](https://github.com/user-attachments/assets/a1f1b443-033d-4231-88c6-bc05354cd477)
